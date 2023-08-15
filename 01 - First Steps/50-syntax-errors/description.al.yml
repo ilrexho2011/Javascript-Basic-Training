@@ -1,0 +1,28 @@
+----------------------------------------------------------------------------------------
+#  Gabime sintaksore
+----------------------------------------------------------------------------------------
+Koncepti: |   Nëse një program JavaScript është sintaksorisht i pasaktë, përkthyesi do të shfaqë një mesazh përkatës dhe një mesazh që tregon skedarin dhe rreshtin ku mund të ketë ndodhur gabimi. **Gabimet sintaksore ** ndodhin kur kodi ka gabime gramatikore. Gramatika është thelbësore për gjuhën njerëzore, por një tekst me gabime gramatikore ende mund të lexohet dhe kuptohet. Megjithatë, kur bëhet fjalë për programim, gjërat janë shumë më strikte. Edhe një gabim i vogël mund të thotë që programi juaj nuk do të funksionojë. Ndoshta i keni ngatërruar kllapat tuaja, ose ka një ";" që keni harruar të shtoni - këto janë vetëm disa shembuj të gabimeve të tilla.
+
+   Këtu është një shembull i disa kodeve me një gabim sintaksor:
+
+   ```javascript
+   console.log('Hodor'
+   ```
+
+   Nëse e ekzekutojmë këtë kod, do të shohim mesazhin e mëposhtëm: `Gabim sintaksor: mungon ) pas listës së argumenteve`. Në JavaScript, këto gabime janë etiketuar si "SyntaxError". Për arsye teknike, ky kod që funksionon në [code-basics] (https://code-basics.com) nuk do të shfaqë një mesazh me një rresht dhe skedar. Mund ta kontrolloni këtë dalje në [repl.it] (https://repl.it).
+
+   Nga njëra anë, gabimet sintaksore janë më të dukshmet, sepse ato kanë të bëjnë me rregullat e gramatikës së kodit dhe nuk kanë asnjë lidhje me logjikën e tij. Mund ta rregulloni lehtësisht pasi ta gjeni.
+   Nga ana tjetër, një përkthyes nuk do t'ju tregojë gjithmonë pozicionin e saktë të një gabimi. Ndonjëherë ju duhet të shtoni një kllapa të harruar në një vend të ndryshëm nga ai që thotë mesazhi i gabimit.
+
+udhëzime: |
+
+   Kjo detyrë nuk lidhet drejtpërdrejt me mësimin, por gjithsesi do të ishte e dobishme të praktikoni shtypjen.
+   Shtypni tekstin e mëposhtëm "Ajo që është e vdekur nuk mund të vdesë kurrë".
+
+këshilla: |     [Gabimet në JavaScript](https://davidwalsh.name/fix-javascript-errors)
+
+përkufizimet:
+   - emri: "Gabimet sintaksore"
+     Përshkrimi: "janë gabime gramatikore në një gjuhë programimi."
+   - emri: "Gabim sintaksor (gabim analize)"
+     Përshkrimi: "është një lloj gabimi në JavaScript që ndodh kur ka gabime sintaksore në kod."

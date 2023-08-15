@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------------------------------------------------------------------  
+#   Përshëndetje, Botë! 
+--------------------------------------------------------------------------------------------------------------------------------------
+Koncepti: |   Siç është traditë, ne do të fillojmë duke shkruar një 'Hello, World!' program. Programi do të printojë tekstin e mëposhtëm: 
+
+   <pre class='hexlet-basics-output'> 
+
+     Përshendetje Botë! 
+
+   </pre> 
+
+   Për të printuar diçka, duhet t'i jepni kompjuterit një komandë të veçantë. Në JavaScript, ne përdorim `console.log()`. 
+
+udhëzime: |   Kopjoni kodin e saktë nga udhëzimet në redaktues dhe ekzekutoni atë duke klikuar "Run". 
+
+   ```javascript 
+   console.log('Përshëndetje, Botë!'); 
+   ``` 
+
+   Vini re se nëse shkruani 'hello, woRld!' në vend të 'Hello, World!', do të llogaritet si tekst i ndryshëm, sepse shkronjat e mëdha dhe të vogla 
+   janë simbole të ndryshme në JavaScript. Madhësia e shkronjës quhet *case*, dhe çdo programues do t'ju tregojë se *case është i rëndësishëm (sensintiv)*. 
+   Ky rregull prek pothuajse gjithçka në kodim, prandaj sigurohuni që të mësoheni t'i kushtoni vëmendje çështjes në çdo kohë. 
+
+
+këshilla: |     [Lexo më shumë rreth 'Hello, World!'](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) 

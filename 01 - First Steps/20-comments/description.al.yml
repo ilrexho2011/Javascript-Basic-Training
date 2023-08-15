@@ -1,0 +1,56 @@
+-----------------------------------------------------------------------------------------------------------------------------------------
+#   Komentet ne JS 
+----------------------------------------------------------------------------------------------------------------------------------------- 
+
+Koncepti: |   Pothuajse çdo gjuhë programimi ju lejon të shtoni komente në kodin tuaj. Një përkthyes nuk vlerëson komentet, qëllimi i tyre i vetëm është të lejojnë programuesit të lënë shënime për veten dhe të tjerët. Ka dy mënyra për të shkruar komente në JavaScript: 
+
+ **Komentet me një rresht ** fillojnë me `//`. Çdo tekst ose simbol që pason, nuk do të vlerësohet ose ekzekutohet. 
+
+ Një koment mund të përfshijë të gjithë rreshtin: 
+
+    ```javascript 
+
+   // Për te komentuar ne nje rresht! 
+
+   ``` 
+
+   ose mund të ndiqni disa kode në të njëjtën linjë: 
+
+   ```javascript 
+   console.log('Unë jam Mbreti');  // Për sqarim per te tjeret! 
+   ``` 
+   **Komentet me shumë rreshta** fillojnë me `/*` dhe mbarojnë me `*/`. 
+
+   ```javascript 
+   /* 
+     Nata është e errët dhe 
+     plot tmerre. 
+    */ 
+
+   console.log('Luani eshte Mbreti'); 
+
+   ``` 
+
+   https://replit.com/@hexlet/helloworld  
+
+   Komentet e tilla zakonisht sqarojnë qëllimin e pjesëve të kodit. 
+
+udhëzime: |   Krijo një koment të vetëm rresht me tekstin e mëposhtëm: "Ti nuk di asgjë, Jon!". 
+
+këshilla: [] 
+
+    përkufizime: - emri: "Koment" 
+
+     përshkrimi: |    është një pjesë teksti që nuk ndikon në ekzekutimin e programit. Programuesit përdorin komente për të shtuar shënime për veten e tyre ose për kolegët e tyre. 
+
+       `// koment me një rresht` 
+
+       ``` 
+       /* 
+
+         koment me shumë rreshta 
+         koment me shumë rreshta 
+
+       */ 
+
+       ``` 

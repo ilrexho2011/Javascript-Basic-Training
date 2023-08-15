@@ -1,0 +1,59 @@
+------------------------------------------------------------------------------------------------------------------------------------------
+#   Fjalet çeles ose Instruksionet 
+------------------------------------------------------------------------------------------------------------------------------------------ 
+
+Koncepti: |   Një deklaratë është një komandë që i jepet një kompjuteri për të bërë diçka. Kodi JavaScript është një grup deklaratash të cilat zakonisht ndahen nga një simbol `;`. 
+
+ Këtu është një shembull i disa kodeve me dy deklarata. 
+
+   ```javascript 
+   console.log('Nëna e Dragoit.'); 
+   console.log('Dracarys!'); 
+   ``` 
+
+ Kur ekzekutoni këtë kod, do të shihni dy fjali në ekran, njëra pas tjetrës. 
+
+   <pre class='hexlet-basics-output'> 
+   Nëna e Luanit. 
+   Luaneshë! 
+   </pre> 
+
+ Teorikisht, është e mundur të vendosni deklarata të shumta në të njëjtin varg: 
+
+   ```javascript 
+   console.log('Nëna e Luanit.');  console.log('Luaneshë!'); 
+   ``` 
+por konsiderohet praktikë e keqe pasi është e vështirë të lexohet. 
+Pse është e rëndësishme të dihet? Një deklaratë është një njësi ekzekutimi. 
+Një interpretues, i cili është programi që ekzekuton kodin në JavaScript, ka nevojë që deklaratat të ndahen në këtë mënyrë. 
+Ky përkthyes në botën e JavaScript është çdo shfletues (pasi është në gjendje të kodojë JavaScript) ose Node.js (për të njëjtën arsye). 
+Parimi i funksionimit të një përkthyesi është (përafërsisht) si më poshtë. Ai lexon skedarin me kodin, e ndan kodin në deklarata dhe më pas i ekzekuton ato. 
+ 
+udhëzime: |   Shtypni këta tre emra, njëri pas tjetrit: "Renato", "Simoni", "RC Albania". Si rezultat, redaktori duhet të printojë: 
+
+   <pre class='hexlet-basics-output'> 
+   Renato 
+   Simoni 
+   RC Albania 
+   </pre> 
+    
+Thirrni `console.log()` për secilin emër.  
+console.log('Renato'); 
+console.log('Simoni'); 
+console.log('Rc Albania'); 
+ 
+këshilla: 
+
+   - |     [Më shumë rreth përkthyesve](https://en.wikipedia.org/wiki/Interpreter_(computing)) 
+
+   - |     [Deklarata dhe deklarata sipas kategorive]  (https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements ) 
+
+ përkufizimet: 
+
+   - emri: Përkthyes / Compilator 
+
+     përshkrimi: |       është një program që ekzekuton kodin në JavaScript. 
+
+   - emri: Instruksion 
+
+     përshkrimi: |       është një komandë që i jepet një kompjuteri. Kodi JavaScript është një grup deklaratash të ndara (më shpesh) nga `;`. 

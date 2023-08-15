@@ -1,0 +1,37 @@
+---------------------------------------------------------------------------------------------------
+#    Si i verifikojmë zgjidhjet tuaja?
+---------------------------------------------------------------------------------------------------
+Koncepti: |   Faqja jonë e internetit verifikon zgjidhjet tuaja automatikisht. Ju mund të pyesni veten se si funksionon.
+
+   Në rastin më themelor, sistemi thjesht ekzekuton kodin tuaj dhe shqyrton daljen. Pastaj ai krahason prodhimin aktual me atë të pritur.
+   Mësimet e mëposhtme trajtojnë çështje më komplekse. Ju do të shkruani funksione. Ata janë si mini-programe që marrin të dhëna nga jashtë dhe kryejnë operacione mbi to. Verifikimi i zgjidhjeve bëhet pak më i ndërlikuar në këtë rast. Sistemi ekzekuton kodin tuaj dhe i kalon të dhënat. Sistemi e di se çfarë rezultati do të jepte një funksion i shkruar saktë me të dhënat që i ofron sistemi, dhe ky rezultat është ai që sistemi "po pret".
+   Le të supozojmë se detyra juaj është të programoni një funksion që shton dy numra. Sistemi i verifikimit do t'i japë atij disa kombinime numrash dhe do të krahasojë përgjigjet e funksionit tuaj me ato të llogaritura saktë. Nëse të gjitha vlerat aktuale përputhen me ato të pritura, zgjidhja juaj do të konsiderohet e vlefshme.
+   Ky është testim. Përdoret gjerësisht në procesin real, të përditshëm të zhvillimit. Zhvilluesit zakonisht shkruajnë testet _së pari_, që do të vazhdojnë të shkruajnë vetë programin. Gjatë atij procesi, ata kryejnë teste disa herë për të kontrolluar se sa afër janë me zgjidhjen e dëshiruar.
+   Kjo është arsyeja pse uebfaqja jonë thotë "Testet e kaluara" pasi ta zgjidhni saktë detyrën.
+
+   Një nga detyrat tuaja në mësimet e mëposhtme do të jetë të shkruani një funksion që kryen llogaritje të caktuara dhe kthen rezultatin. Si shembull, le të supozojmë se keni bërë një gabim të vogël dhe funksioni kthen vlerën e gabuar. Në këtë rast, sistemi do t'ju japë mesazhin e mëposhtëm:
+
+   <pre class='hexlet-basics-output'>
+    ● test
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected value to be:
+      "Hello, World!"
+    Received:
+      "ello, World!"
+  </pre>
+
+   Përveç testeve tona, është shumë e dobishme të eksperimentosh me kodin në [konsolën e shfletuesit] (https://developer.mozilla.org/en-US/docs/Tools/Browser_Console). Kur diçka nuk është e qartë për ju ose dëshironi të eksperimentoni me kodin, mos ngurroni t'i bëni të gjitha këto në tastierë. Idealisht, është më mirë të ekzekutoni vetë të gjithë kodin e dhënë në mësime. Përveç konsolës, mund të përdorni edhe [repl.it](https://repl.it/languages/javascript).
+   Ndonjëherë, kur krijoni një zgjidhje, mund të duket se keni bërë gjithçka në mënyrë korrekte, por sistemi është në një hutim dhe nuk do ta pranojë zgjidhjen tuaj. Raste të tilla janë të pamundura kufitare. Testet e dështuara thjesht nuk do të arrijnë deri në sit, ato ekzekutohen automatikisht pas çdo ndryshimi. Në shumicën dërrmuese të rasteve (të gjitha projektet tona janë ekzekutuar miliona herë në total gjatë shumë viteve) gabimi është në kodin e zgjidhjes. Mund të jetë shumë e padukshme, ndoshta keni përdorur shenjat e pikësimit të gabuar, ose keni përdorur shkronja të mëdha në vend të shkronjave të vogla, ose keni humbur një presje. Rastet e tjera janë më të ndërlikuara. Ndoshta zgjidhja juaj funksionon për një grup të dhënash, por jo për një tjetër. Pra, gjithmonë lexoni udhëzimet dhe provoni me kujdes rezultatin tuaj. Me siguri do të ketë ndonjë shenjë gabimi.
+   Megjithatë, nëse jeni i sigurt për një gabim ose keni gjetur një pasaktësi, gjithmonë mund ta vini në dukje. Në fund të çdo seksioni teorik, ka një lidhje me përmbajtjen e mësimit në Github (ky projekt është plotësisht me burim të hapur!). Mund të shkruani për një problem, të shikoni testet (mund të shihni se si quhet kodi juaj atje) dhe madje të dërgoni një kërkesë për tërheqje. Nëse gjithçka ju ka shkuar keq, atëherë bashkohuni me kanalin #hexlet-feedback në [komunitetin Slack] (https://slack.hexlet.io/), ku ne do të jemi gjithmonë gati t'ju ndihmojmë.
+
+udhëzime: |   Shtypni numrin e mëposhtëm: `9780262531962`.
+   Eksperimentoni me daljen. Provoni një numër ose varg tjetër atje. Shikoni daljen e sistemit.
+
+përkufizimet:
+   - emri: Testet
+     përshkrimi: |       janë pjesë të veçanta të kodit që vërtetojnë programet duke kontrolluar rezultatin e saktë kundrejt atij aktual.
+këshilla:
+   - |     [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
+   - |     [Komuniteti Hexlet në Slack] ( https://help.hexlet.io/en/articles/111445-hexlet-community-in-slack )
