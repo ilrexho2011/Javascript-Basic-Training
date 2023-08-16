@@ -1,0 +1,51 @@
+---------------------------------------------------------------------------------------
+#       Operacionet aritmetike
+---------------------------------------------------------------------------------------
+Koncepti: |Në nivelin më themelor, kompjuterët përdorin vetëm numra. Edhe në aplikacionet gjuhësore të nivelit të lartë, ka shumë numra dhe veprime me to. Për të filluar me programimin gjithçka që duhet të dini është aritmetika bazë – le të fillojmë me këtë.
+
+   Kur mbledhim dy numra në matematikë, shkruajmë, për shembull, "3 + 4". E njëjta gjë vlen edhe për programimin. Këtu është një program që shton dy numra:
+
+   ```javascript
+   // Mos harroni pikëpresjen në fund,
+   // meqenëse çdo rresht kodi është një deklaratë
+
+   3 + 4;
+   ```
+
+   Deklarata `3 + 4` e bën kompjuterin të mbledhë numrat dhe të gjejë rezultatin. Nëse e drejtoni këtë program, asgjë nuk do të ndodhë. Epo, kompjuteri do të llogarisë shumën, sigurisht, por kjo do të jetë ajo. Rezultati i shumës nuk përdoret, dhe si i tillë, ky program nuk ka vlerë reale. Ne duhet t'i kërkojmë kompjuterit të shtojë '3 + 4', dhe më pas t'i japim një komandë për të bërë diçka me rezultatin. Për shembull, printojeni:
+
+   ```javascript
+   // Shuma llogaritet së pari,
+   // më pas kalohet në funksionin e printimit
+
+   console.log (3 + 4);
+   ```
+
+   Pas nisjes, rezultati do të shfaqet në ekran:
+   ```
+   7
+   ```
+
+   Përveç kësaj, operacionet e mëposhtme janë në dispozicion:
+   `*` - shumëzim
+   `/` - ndarje
+   `-` - zbritje
+   `%` — [modulo](https://en.wikipedia.org/wiki/Modulo_operation) (mbetja pas ndarjes)
+   `**` - fuqi
+
+   Tani le të shtypim rezultatin e ndarjes dhe më pas rezultatin e fuqizimit:
+
+   ```javascript
+   console.log (8 / 2); // => 4
+   console.log(3 ** 2); // => 9
+   ```
+   Ndonjëherë ne do të tregojmë rezultatin e kodit të ekzekutuar në komentet si kjo: `=> REZULTATE`. Për shembull, `// => 4`.
+
+   Deklarata e parë do të printojë `4` (pasi `8 / 2` është `4`), dhe deklarata e dytë do të printojë 9 (pasi 3<sup>2</sup> është 9).
+
+udhëzime: |   Shtypni rezultatin e pjesëtimit '81' me '9'.
+
+këshilla:
+   - |     Gjithmonë vendosni operatorët aritmetikë me hapësira midis numrave (operandëve) - është një formë e mirë kur programoni. Kjo është arsyeja pse ne shkruajmë "console.log(3 + 4)", dhe jo "console.log(3+4)" në shembujt tanë.
+   - |     Rezultati i pjesëtimit me zero është Pafundësia. Ne do të kuptojmë se çfarë do të thotë kjo në mësimet e mëvonshme.
+   - |     [Operatorët aritmetikë](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
